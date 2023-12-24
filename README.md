@@ -56,10 +56,15 @@ Clone the project first and navigate to the project directory, then:
 
 3. Run the application:
    ```bash
-   python app.py
+   cd app
+   python main.py
+
+OR 
+  cd app
+  uvicorn main:app --reload
    ```
 
-4. Access the API endpoints to perform question-answering based on the provided input files.
+4. Access the API endpoints (usually at localhost:8000) to perform question-answering based on the provided input files.
 
 Note: Known Issue
 
@@ -108,7 +113,7 @@ langchain-qna
 
 
 ## API Endpoints
-### http://<server_url:<port>/qna/
+### http://<server_url>:<port>/qna/
 
 ![image](https://github.com/gauravgs/langchain-qna-bot/assets/40033910/3f677a64-2545-46a0-911d-82dae7a6ae0f)
 

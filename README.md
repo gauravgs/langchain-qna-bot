@@ -108,6 +108,7 @@ langchain-qna
   -F 'query_file=@test.json;type=application/json' \
   -F 'content_file=@village.pdf;type=application/pdf'
 ```
-![img_1.png](img_1.png)
+<img width="800" src="https://github.com/gauravgs/langchain-qna-bot/blob/main/img_1.png">
+
 
 ## _**Note: Sample files can be found under dir /assets_

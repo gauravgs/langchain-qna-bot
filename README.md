@@ -97,7 +97,8 @@ langchain-qna
 ## API Endpoints
 ### http://<server_url:<port>/qna/
 
-![img.png](./img.png)
+![image](https://github.com/gauravgs/langchain-qna-bot/assets/40033910/3f677a64-2545-46a0-911d-82dae7a6ae0f)
+
 
 ## Example Usage
 ```
@@ -108,7 +109,10 @@ langchain-qna
   -F 'query_file=@test.json;type=application/json' \
   -F 'content_file=@village.pdf;type=application/pdf'
 ```
-![img_1.png](./img_1.png)
+![image](https://github.com/gauravgs/langchain-qna-bot/assets/40033910/02258156-52d7-41c9-8cc3-ece603f26521)
+
+
+
 
 
 ## _**Note: Sample files can be found under dir /assets_

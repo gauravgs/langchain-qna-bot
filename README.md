@@ -41,6 +41,8 @@ Make use of the following technologies for the implementation:
 
 ## Getting Started
 
+Clone the project first and navigate to the project directory, then:
+
 1. Install the required dependencies:
    ```bash
    brew install tesseract

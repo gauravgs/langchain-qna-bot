@@ -57,7 +57,18 @@ Make use of the following technologies for the implementation:
    python app.py
    ```
 
-6. Access the API endpoints to perform question-answering based on the provided input files.
+4. Access the API endpoints to perform question-answering based on the provided input files.
+
+Note: Known Issue
+
+If you encounter an issue with NLTK punkt not found, do the following, in a separate terminal window, open the python IDLE via typing `python`:
+
+```
+import nltk
+
+nltk.download('punkt')
+
+```
 
 ## Directory Structure
 

@@ -1,0 +1,13 @@
+langchain
+openai
+uvicorn
+python-dotenv
+chromadb
+unstructured[pdf]
+sentence-transformers
+tiktoken
+ratelimit
+
+opencv-python
+certifi
+nltk

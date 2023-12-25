@@ -79,7 +79,8 @@ nltk.download('punkt')
 ## High Level Sequence Diagram
 
 
-![image](https://github.com/gauravgs/langchain-qna-bot/assets/40033910/e818b370-7cfb-4707-b898-1a2fc40b3509)
+![diagram-export-12-25-2023-8_52_07-PM](https://github.com/gauravgs/langchain-qna-bot/assets/40033910/a1a1810f-7f2a-4588-8f69-9194a8d4193a)
+
 
 ## Directory Structure
 

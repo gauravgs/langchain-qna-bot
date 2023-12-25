@@ -58,10 +58,9 @@ Clone the project first and navigate to the project directory, then:
    ```bash
    cd app
    python main.py
-
-OR 
-  cd app
-  uvicorn main:app --reload
+   OR
+   cd app
+   uvicorn main:app --reload
    ```
 
 4. Access the API endpoints (usually at localhost:8000) to perform question-answering based on the provided input files.
@@ -76,6 +75,11 @@ import nltk
 nltk.download('punkt')
 
 ```
+
+## High Level Sequence Diagram
+
+
+![image](https://github.com/gauravgs/langchain-qna-bot/assets/40033910/e818b370-7cfb-4707-b898-1a2fc40b3509)
 
 ## Directory Structure
 
@@ -107,7 +111,6 @@ langchain-qna
 \---assets
         test.json
         village.pdf
-
 ```
 
 
